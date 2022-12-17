@@ -18,7 +18,7 @@ const Sidebar = () => {
                     {/* <!-- Sidebar content here --> */}
                     <div>
                         <Link to={'/dashboard'}> <li><a>Add Product</a></li></Link>
-                        <Link to={'/dashboard/update-product/id'}> <li><a>Update Product</a></li></Link>
+                        <Link to={'/dashboard/update-blog/id'}> <li><a>Update Product</a></li></Link>
                     </div>
                     <Link to='/'> <button className='btn btn-sm bg-green-300 text-black border-none'>Back To Home</button></Link>
                 </ul>
